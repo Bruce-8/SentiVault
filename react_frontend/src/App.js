@@ -107,16 +107,16 @@ function NewSentimentView({ title, content, prediction, onPost, onTitle, onConte
   return (
     <>
       <Card border="light" style={{ borderWidth: '5px' }} bg="secondary" text="light">
-        <Card.Header as="h1" style={{ fontSize: '40px', fontWeight: 'bold', textAlign: 'center' }}>New Sentiment</Card.Header>
+        <Card.Header as="h1" style={{ fontSize: '40px', fontWeight: 'bold', textAlign: 'center' }}>Current Sentiment</Card.Header>
         <Card.Body>
           <Form onSubmit={handleSubmit}>
             <Form.Label style={{ fontSize: '30px', fontWeight: 'bold', textAlign: 'left' }} className="text-left">Title</Form.Label>
             <br />
-            <Form.Control style={{ fontSize: '20px', fontWeight: 'bold'}} type='text' onChange={onTitle}></Form.Control>
+            <Form.Control style={{ fontSize: '20px', fontWeight: 'bold'}} type='text' value={title} onChange={onTitle}></Form.Control>
             <br />
             <Form.Label style={{ fontSize: '30px', fontWeight: 'bold', textAlign: 'left' }} className="text-left">Content</Form.Label>
             <br />
-            <Form.Control style={{ fontSize: '20px', fontWeight: 'bold'}} as="textarea" onChange={onContent}></Form.Control>
+            <Form.Control style={{ fontSize: '20px', fontWeight: 'bold'}} as="textarea" value={content} onChange={onContent}></Form.Control>
             <br />
             <div className="d-grid gap-2">
               <Button type="submit" variant="primary" style={{ fontSize: '30px', fontWeight: 'bold'}}>Create New Sentiment</Button>
