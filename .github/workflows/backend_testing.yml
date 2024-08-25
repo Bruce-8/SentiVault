@@ -8,9 +8,12 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - uses: actions/setup-python@v2
-            - run: pip install -r requirements.txt
-            - run: cd django_backend
-            - run: python manage.py test
+            - name: Run Django Tests
+              shell: pwsh
+              run: |
+                pip install -r requirements.txt
+                Set-Location -Path 'django_backend'
+                python manage.py test
 
 
 
