@@ -1,4 +1,4 @@
-name: Unit Tests
+name: Back-End API Tests
 
 on: [pull_request]
 
