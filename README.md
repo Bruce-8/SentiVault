@@ -38,7 +38,7 @@ The created sentiments will all be listed under the `My Sentiments` section on t
 
 ### Sentiment Prediction
 
-After each creation or update of a sentiment, the `Current Predictions` box will be updated accordingly to display the content of the current sentiment. A Tensorflow Neural Network model from the back-end will predict on whether this sentiment is "Positive" or "Negative.
+After each creation or update of a sentiment, the `Current Predictions` box will be updated accordingly to display the content of the current sentiment. A Tensorflow Neural Network model from the back-end will predict on whether this sentiment is "Positive" or "Negative".
 
 ### Deleting a Sentiment
 
