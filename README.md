@@ -26,7 +26,7 @@ Technology Stack:
 
 ## How to Use
 
-<img src="POCs/front_page.png" height="375" width="800"/>
+<img src="POCs/front_page.png" height="450" width="800"/>
 
 ### Creating a Sentiment
 
