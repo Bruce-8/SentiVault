@@ -5,7 +5,7 @@ A web application where users can input and store their sentiments. An AI model 
 Technology Stack:
 - Back-end: Django & Django REST Framework
 - Front-end: React
-- Other Tools: Tensorflow, BootStrap, GitHub Actions, SQLite
+- Other Tools: TensorFlow, Bootstrap, GitHub Actions, SQLite
 
 ## Installation Steps
 
