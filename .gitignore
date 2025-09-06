@@ -1,0 +1,30 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.log
+
+# Django
+db.sqlite3            # SQLite database (optional)
+/media                # Media files (uploads)
+/static               # Static files (compiled JS/CSS, images, etc.)
+*.pot
+*.mo
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS Files
+.DS_Store            # macOS Finder metadata
+Thumbs.db            # Windows thumbnail cache

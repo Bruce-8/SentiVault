@@ -19,9 +19,10 @@ Technology Stack:
 8. Open a new terminal (while keeping the previous one) and perform Step 6.
 9. In this terminal run `cd react_frontend`. You should now have two terminals open, with the first one looking like `(.venv) ... \django_backend` and the second one `(.venv) ... \react_frontend`. We will call the first and second terminal back-end terminal and front-end terminal respectively.
 10. In the front-end terminal, run [these commands](https://nodejs.org/en/download/package-manager) to install Node.js.
-11. In the back-end terminal, run `python manage.py runserver`. This will start up the back-end Django server.
-12. In the front-end terminal, run `npm start`. This will start up your front-end.
-13. If a browser window doesn't automatically show up, open up a browser and enter `http://localhost:3000/`.
+11. In the back-end terminal, run `python manage.py migrate`.
+12. In the back-end terminal, run `python manage.py runserver`. This will start up the back-end Django server.
+13. In the front-end terminal, run `npm start`. This will start up your front-end.
+14. If a browser window doesn't automatically show up, open up a browser and enter `http://localhost:3000/`.
 
 
 ## How to Use
